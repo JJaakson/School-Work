@@ -1,0 +1,6 @@
+body {
+    background: lightcoral url("images/background.gif") no-repeat;
+}
+li a {
+    color: yellow;
+}

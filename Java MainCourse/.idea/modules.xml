@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EX01IdCode/EX01IdCode.iml" filepath="$PROJECT_DIR$/EX01IdCode/EX01IdCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EX02WebBrowser/EX02WebBrowser.iml" filepath="$PROJECT_DIR$/EX02WebBrowser/EX02WebBrowser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EX03Warehouses/EX03Warehouses.iml" filepath="$PROJECT_DIR$/EX03Warehouses/EX03Warehouses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EX04BonusCards/EX04BonusCards.iml" filepath="$PROJECT_DIR$/EX04BonusCards/EX04BonusCards.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EX05CarWash/EX05CarWash.iml" filepath="$PROJECT_DIR$/EX05CarWash/EX05CarWash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EX06LogFiles/EX06LogFiles.iml" filepath="$PROJECT_DIR$/EX06LogFiles/EX06LogFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EX07PersonStatistics/EX07PersonStatistics.iml" filepath="$PROJECT_DIR$/EX07PersonStatistics/EX07PersonStatistics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EX08BorderControl/EX08BorderControl.iml" filepath="$PROJECT_DIR$/EX08BorderControl/EX08BorderControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EX09TypeGame/EX09TypeGame.iml" filepath="$PROJECT_DIR$/EX09TypeGame/EX09TypeGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EX11KittenShelter/EX11KittenShelter.iml" filepath="$PROJECT_DIR$/EX11KittenShelter/EX11KittenShelter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EX12BurgerBooth/EX12BurgerBooth.iml" filepath="$PROJECT_DIR$/EX12BurgerBooth/EX12BurgerBooth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EX13Bar/EX13Bar.iml" filepath="$PROJECT_DIR$/EX13Bar/EX13Bar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EX14WebScraping/EX14WebScraping.iml" filepath="$PROJECT_DIR$/EX14WebScraping/EX14WebScraping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EXAM3/EXAM3.iml" filepath="$PROJECT_DIR$/EXAM3/EXAM3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KT1/KT1.iml" filepath="$PROJECT_DIR$/KT1/KT1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR01Introduction/PR01Introduction.iml" filepath="$PROJECT_DIR$/PR01Introduction/PR01Introduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR02DataStructures/PR02DataStructures.iml" filepath="$PROJECT_DIR$/PR02DataStructures/PR02DataStructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR03DataTypes/PR03DataTypes.iml" filepath="$PROJECT_DIR$/PR03DataTypes/PR03DataTypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR04SubClasses/PR04SubClasses.iml" filepath="$PROJECT_DIR$/PR04SubClasses/PR04SubClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR06ReadingFiles/PR06ReadingFiles.iml" filepath="$PROJECT_DIR$/PR06ReadingFiles/PR06ReadingFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR07Stream/PR07Stream.iml" filepath="$PROJECT_DIR$/PR07Stream/PR07Stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR08SteakHouse/PR08SteakHouse.iml" filepath="$PROJECT_DIR$/PR08SteakHouse/PR08SteakHouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR09Greenhouse/PR09Greenhouse.iml" filepath="$PROJECT_DIR$/PR09Greenhouse/PR09Greenhouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR10Recursion/PR10Recursion.iml" filepath="$PROJECT_DIR$/PR10Recursion/PR10Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR11CakeOrder/PR11CakeOrder.iml" filepath="$PROJECT_DIR$/PR11CakeOrder/PR11CakeOrder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR12Generics/PR12Generics.iml" filepath="$PROJECT_DIR$/PR12Generics/PR12Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR13Singleton/PR13Singleton.iml" filepath="$PROJECT_DIR$/PR13Singleton/PR13Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR14Lambda/PR14Lambda.iml" filepath="$PROJECT_DIR$/PR14Lambda/PR14Lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TK1/TK1.iml" filepath="$PROJECT_DIR$/TK1/TK1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/iti0200-2020.iml" filepath="$PROJECT_DIR$/.idea/iti0200-2020.iml" />
+    </modules>
+  </component>
+</project>

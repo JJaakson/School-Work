@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Yahtzee</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="game.css">
+	</head>
+	<script>
+	</script>
+	<body>
+		<div class="header" id="header">
+			Yahtzee!
+			<p id="name"></p>
+		</div>
+		<div class="gamefield">
+			<div class="scoreboard">
+				<table>
+					<tr>
+						<th></th>
+						<th class="" id="player1"></th>
+						<th class="" id="player2"></th>
+					</tr>
+					<tr>
+						<td>Ones</td>
+						<td class="" id="p1ones" onclick="lockFaces('ones')">0</td>
+						<td class="" id="p2ones" onclick="lockFaces('ones')">0</td>
+					</tr>
+					<tr>
+						<td>Twos</td>
+						<td class="" id="p1twos" onclick="lockFaces('twos')">0</td>
+						<td class="" id="p2twos" onclick="lockFaces('twos')">0</td>
+					</tr>
+					<tr>
+						<td>Threes</td>
+						<td class="" id="p1threes" onclick="lockFaces('threes')">0</td>
+						<td class="" id="p2threes" onclick="lockFaces('threes')">0</td>
+					</tr>
+					<tr>
+						<td>Fours</td>
+						<td class="" id="p1fours" onclick="lockFaces('fours')">0</td>
+						<td class="" id="p2fours" onclick="lockFaces('fours')">0</td>
+					</tr>
+					<tr>
+						<td>Fives</td>
+						<td class="" id="p1fives" onclick="lockFaces('fives')">0</td>
+						<td class="" id="p2fives" onclick="lockFaces('fives')">0</td>
+					</tr>
+					<tr>
+						<td>Sixes</td>
+						<td class="" id="p1sixes" onclick="lockFaces('sixes')">0</td>
+						<td class="" id="p2sixes" onclick="lockFaces('sixes')">0</td>
+					</tr>
+					<tr class="sum">
+						<td>Sum</td>
+						<td id="p1facesSum">0</td>
+						<td id="p2facesSum">0</td>
+					</tr>
+					<tr class="sum">
+						<td>Bonus</td>
+						<td id="p1facesBonus">0</td>
+						<td id="p2facesBonus">0</td>
+					</tr>
+					<tr>
+						<td>Three of a kind</td>
+						<td class="" id="p1threekind" onclick="lockSpecial('threekind')">0</td>
+						<td class="" id="p2threekind" onclick="lockSpecial('threekind')">0</td>
+					</tr>
+					<tr>
+						<td>Four of a kind</td>
+						<td class="" id="p1fourkind" onclick="lockSpecial('fourkind')">0</td>
+						<td class="" id="p2fourkind" onclick="lockSpecial('fourkind')">0</td>
+					</tr>
+					<tr>
+						<td>Full House</td>
+						<td class="" id="p1fullhouse" onclick="lockSpecial('fullhouse')">0</td>
+						<td class="" id="p2fullhouse" onclick="lockSpecial('fullhouse')">0</td>
+					</tr>
+					<tr>
+						<td>Small straight</td>
+						<td class="" id="p1smallstraight" onclick="lockSpecial('smallstraight')">0</td>
+						<td class="" id="p2smallstraight" onclick="lockSpecial('smallstraight')">0</td>
+					</tr>
+					<tr>
+						<td>Large straight</td>
+						<td class="" id="p1largestraight" onclick="lockSpecial('largestraight')">0</td>
+						<td class="" id="p2largestraight" onclick="lockSpecial('largestraight')">0</td>
+					</tr>
+					<tr>
+						<td>Chance</td>
+						<td class="" id="p1chance" onclick="lockSpecial('chance')">0</td>
+						<td class="" id="p2chance" onclick="lockSpecial('chance')">0</td>
+					</tr>
+					<tr>
+						<td>YAHTZEE</td>
+						<td class="" id="p1yahtzee" onclick="lockSpecial('yahtzee')">0</td>
+						<td class="" id="p2yahtzee" onclick="lockSpecial('yahtzee')">0</td>
+					</tr>
+					<tr class="sum">
+						<td>Total Score</td>
+						<td id="p1totalSum">0</td>
+						<td id="p2totalSum">0</td>
+					</tr>
+				</table>
+			</div>
+			<div class="information" id="information">
+				<h2 id="turnId"></h2>
+				<h2 id="roundsTotal"></h2>
+				<h3 id="currentRound"></h3>
+				<h3 id="rerolls"></h3>
+			</div>
+			<div class="gameEnd" id="gameEnd">
+				<h2 id="finalScore"></h2>
+				<button class="button" id="restartButton" type="button" onclick="returnBack()">Start again</button>
+			</div>
+			<button class="rollButton button" id="rollButton" type="button" onclick="rollDice()">Click to roll</button>
+			<div class="dice">
+				<p id="diceScore"></p>
+				<img class="unchecked" id="die1" src="images/dice_1.png" value="1" onclick="checkUncheck(1)">
+				<img class="unchecked" id="die2" src="images/dice_2.png" value="2" onclick="checkUncheck(2)">
+				<img class="unchecked" id="die3" src="images/dice_3.png" value="3" onclick="checkUncheck(3)">
+				<img class="unchecked" id="die4" src="images/dice_4.png" value="4" onclick="checkUncheck(4)">
+				<img class="unchecked" id="die5" src="images/dice_5.png" value="5" onclick="checkUncheck(5)">
+			</div>
+		</div>
+	<div class="footer">
+		Janar Keit Jaakson 193703IAIB
+	</div>
+    <script src="game_logic.js"></script>
+	</body>
+</html>

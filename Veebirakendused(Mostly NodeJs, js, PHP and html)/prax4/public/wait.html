@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yahtzee</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="game.css">
+    </head>
+    <body>
+    <div class="header">
+        Waiting for other player/s!
+    </div>
+    <div class="footer">
+        Janar Keit Jaakson 193703IAIB
+    </div>
+    </body>
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const playerId = urlParams.get('pId')
+
+        window.setInterval(function () {
+            fetch('/game/' + playerId)
+                .then(data=>{return data.json()})
+                .then(res=>{console.log(res)
+                    if (res.found === true) {
+                        location.href = res.gameUrl;
+                    }
+            })
+        }, 3000)
+    </script>
+</html>

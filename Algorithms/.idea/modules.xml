@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AL01A/AL01A.iml" filepath="$PROJECT_DIR$/AL01A/AL01A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AL01B/AL01B.iml" filepath="$PROJECT_DIR$/AL01B/AL01B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AL02/AL02.iml" filepath="$PROJECT_DIR$/AL02/AL02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AL03/AL03.iml" filepath="$PROJECT_DIR$/AL03/AL03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AL04/AL04.iml" filepath="$PROJECT_DIR$/AL04/AL04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AL05A/AL05A.iml" filepath="$PROJECT_DIR$/AL05A/AL05A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AL06/AL06.iml" filepath="$PROJECT_DIR$/AL06/AL06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AL07/AL07.iml" filepath="$PROJECT_DIR$/AL07/AL07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW01/HW01.iml" filepath="$PROJECT_DIR$/HW01/HW01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW02/HW02.iml" filepath="$PROJECT_DIR$/HW02/HW02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/iti0204-2020.iml" filepath="$PROJECT_DIR$/.idea/iti0204-2020.iml" />
+    </modules>
+  </component>
+</project>
